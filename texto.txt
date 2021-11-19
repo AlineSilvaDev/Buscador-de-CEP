@@ -1,0 +1,4 @@
+let nome = req.body.nome;
+    let renda =  req.body.renda/req.body.numDep;
+    let endereco = req. body.script;
+    res.send( "<p>Nome do titular: "+ nome+"</p><p>Renda per capita: "+renda+"</p><p>Endereco completo: </p>"+endereco)
